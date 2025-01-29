@@ -34,7 +34,7 @@ public class WallController : MonoBehaviour
         createLabyrinth(labyrinth);
     }  
 
-    /* Generates a random labyrinth */
+    /* Generates a set of walls for rooms*/
     private void createLabyrinth(int[] labyrinth)
     {
         Quaternion currentRotation = Quaternion.Euler(90, 0, 0);
